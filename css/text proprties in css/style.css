@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    background-color: salmon;
+}
+
+p{
+    font-size: 20px;
+    height: 50px;
+}
+#p1{
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+#p2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#p3{
+    text-decoration: overline;
+}
+#p5{
+    font-size: 60px;
+    color: bisque;
+    text-transform: capitalize;
+    text-shadow: 6px -6px 5px;
+    color: rgb(69, 193, 224);
+}
