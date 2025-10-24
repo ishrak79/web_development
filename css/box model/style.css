@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-align: center;
+}
+#border{
+    border: 5px solid blue;
+}
+#margin{background-color: salmon;
+border: 5px solid red;
+margin: 20px 50px 0px 100px;
+}
+#padding{
+    background-color: aqua;
+    border: 5pz solid green;
+}
