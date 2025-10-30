@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#static,#sticky,#relative,#absolute,#fixed {
+    height: 50px;
+    width: 300px;
+    border: 2px solid;
+    margin: 0 0 80px 0;
+}
+
+#static{
+    position: static;
+    background-color: red;
+    left: 200px;
+}
+
+#sticky{
+    position: sticky;
+    background-color: lightblue;
+    top: 100px;
+    left: 20px;
+}
+
+#relative{
+    position: relative;
+    left: 200px;
+}
+
+#absolute{
+    position: absolute;
+    left: 30px;
+}
+
+#fixed{
+    position: fixed;
+    background-color: green;
+    z-index: 100;
+
+}
