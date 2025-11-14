@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container1{
     background-color: #eee;
     border: #ccc;
@@ -34,4 +35,42 @@
     margin: 10px;
     text-align: center;
     text-transform: uppercase;
+=======
+.container1{
+    background-color: #eee;
+    border: #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item1{
+    background-color: aqua;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    flex: 1;
+}
+
+.container2{
+    background-color: #eee;
+    border: 2px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item2{
+    background-color: aqua;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+>>>>>>> d0f4f6c46beebc72a038de683fd0adbb29767f57
 }
