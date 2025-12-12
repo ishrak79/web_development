@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrollspy and Carousel hw</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+  <a class="navbar-brand" href="#">Bangladesh</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#Info">Info</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#War">War</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#Cricket">Cricket</a></li>
+        <li><a class="dropdown-item" href="#About">About</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#Beauty">Beauty</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </header>
+
+    <main>
+        <section id="Info">
+            <h3 class="text-center">Info</h3>
+            <p>Bangladesh is a South Asian country on the Bay of Bengal, known for its lush greenery, river networks, and vibrant culture. Its capital, Dhaka, is one of the fastest-growing cities in the world. Bengali is the official language, and the nation has a rich heritage of literature, music, and traditional crafts like jamdani weaving</p>
+        </section>
+        <section id="War">
+            <h3 class="text-center">War</h3>
+            <p>The Bangladesh Liberation War of 1971 was a nine-month struggle in which the people of Bangladesh fought for independence from Pakistan. The conflict began after years of political and economic discrimination against the Bengali population, followed by a brutal military crackdown on March 25, 1971, known as Operation Searchlight. Millions of civilians were displaced, and widespread atrocities were committed during the war.</p>
+        </section>
+        <section id="Cricket">
+            <h3 class="text-center">Cricket</h3>
+            <p>Cricket is the most popular sport in Bangladesh, passionately followed across the entire country. The Bangladesh national cricket team, known as the Tigers, gained Test status in 2000 and has since grown into a competitive side in international cricket. The team has achieved memorable victories against top nations in formats like ODIs, T20s, and Tests. Domestic cricket is also vibrant, with the Bangladesh Premier League (BPL) attracting players from around the world. Stars such as Shakib Al Hasan, Tamim Iqbal, and Mushfiqur Rahim have become national icons and global talents. Cricket stadiums like Mirpur’s Sher-e-Bangla National Stadium regularly host large, enthusiastic crowds. The sport unites the nation, especially during major tournaments like the ICC World Cup and Asia Cup. Overall, cricket plays a central role in Bangladeshi sports culture and national pride.</p>
+        </section>
+        <section id="About">
+            <h3 class="text-center">About</h3>
+            <p>Bangladesh is a South Asian country known for its rich culture, vibrant history, and natural beauty. Situated on the Bay of Bengal, it has a landscape dominated by rivers, green fields, and the famous Sundarbans mangrove forest. The capital city, Dhaka, is a bustling center of culture and commerce. Bangladesh gained independence in 1971 after the Liberation War and has since developed rapidly in sectors like garments, agriculture, and technology. With its warm hospitality, colorful festivals, and strong traditions, Bangladesh stands as a nation of resilience and pride.</p>
+        </section>
+        <section id="Beauty">
+            <h3 class="text-center">Beauty</h3>
+            <p>The beauty of Bangladesh lies in its stunning natural landscapes, rich culture, and warm, welcoming people. From the lush green tea gardens of Sylhet to the tranquil rivers that flow across the country, Bangladesh offers breathtaking scenery at every turn. The Sundarbans, with its mysterious mangrove forests and wildlife, showcases a unique natural charm, while Cox’s Bazar boasts the world’s longest natural sea beach. Rural villages reflect timeless beauty with golden paddy fields, coconut trees, and peaceful sunsets. The vibrant festivals, colorful clothing, and traditional music add to the cultural beauty of the nation. Together, these elements create a captivating and unforgettable picture of Bangladesh’s true charm.</p>
+        </section>
+    </main>
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <h1 class="text-center">Pictures</h1>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image copy.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="image copy 2.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<footer>&copy;all rights reserved ,2025
+
+</footer>
+</body>
+</html>
