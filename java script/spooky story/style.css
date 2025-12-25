@@ -1,0 +1,14 @@
+body.dark {
+    color:white;
+    background: blue;
+}
+
+button {
+    display:block;
+    margin: 5px;
+}
+
+.textEntry {
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
