@@ -1,0 +1,90 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg,#76cbec 0% 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgb(66, 63, 63);
+    top: -150px;
+    right: -150px;
+    animation: pulse 8s infinite alternate;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: rgb(66, 63, 63);
+    top: -100px;
+    right: -100px;
+    animation: pulse 6s infinite alternate;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 0 20px;
+    z-index: 1;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 1s forwards 0.5s;
+}
+.hero h1 {
+    font-size:3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.hero h1 span::after{
+    content: '';
+    position:absolute;
+    right: -8px;
+    width: 8px;
+    height: 3.5rem;
+    background-color: white;
+    animation: blink 0.8s infinite;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: white;
+    color: #76cbec; 
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(rgb(191, 56, 56), rgb(90, 132, 90), rgb(75, 75, 91), alpha);
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px;
+}
+
+.shape {
+    position: absolute;
+    opacity: 0.1;
+    animation: float 15s infinite linear;
+}
